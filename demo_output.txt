@@ -1,0 +1,68 @@
+==========================================================================================
+AI RESUME SCREENING SYSTEM — DEMO RUN
+==========================================================================================
+
+--- JOB DESCRIPTION ANALYSIS ---
+Required Skills Detected (26):
+  aws, ci/cd, communication, data analysis, data science, data visualization, deep learning, docker, gcp, git, large language models, llm, machine learning, mlops, natural language processing, nlp, numpy, pandas, predictive modeling, problem solving, python, pytorch, scikit-learn, sql, statistics, tensorflow
+Minimum Experience Required: 3.0 years
+Education Keywords Detected: m.sc, m.tech, master
+
+--- CANDIDATE RANKING ---
+ Rank     Candidate         Source File  Overall Score (%)  Skill Match (%)  Semantic Match (%)  Experience Match (%)  Education Match (%)  Experience (yrs)                   Email
+    1   Karan Mehta  resume_4_karan.txt              75.76             84.6                42.3                 100.0                100.0               6.0   karan.mehta@email.com
+    2 Ananya Sharma resume_1_ananya.txt              71.71             73.1                46.1                 100.0                100.0               4.0 ananya.sharma@email.com
+    3   Rahul Verma  resume_2_rahul.txt              40.22             30.8                29.6                  66.7                 75.0               2.0   rahul.verma@email.com
+    4    Priya Nair  resume_3_priya.txt              26.42              3.8                 7.3                 100.0                 75.0               5.0    priya.nair@email.com
+
+--- DETAILED BREAKDOWN PER CANDIDATE ---
+
+------------------------------------------------------------------------------------------
+Rank #1: Karan Mehta  |  Overall Score: 75.76%
+  Source file        : resume_4_karan.txt
+  Email              : karan.mehta@email.com
+  Experience         : 6.0 yrs (required: 3.0 yrs) -> 100.0% match
+  Education          : m.sc -> 100.0% match
+  Skill Match Score  : 84.6%
+  Semantic/Text Score: 42.3%
+  Matched Skills (22): aws, ci/cd, communication, data science, data visualization, deep learning, docker, gcp, git, llm, machine learning, mlops, natural language processing, nlp, numpy, pandas, python, pytorch, scikit-learn, sql, statistics, tensorflow
+  Missing Skills (4): data analysis, large language models, predictive modeling, problem solving
+
+------------------------------------------------------------------------------------------
+Rank #2: Ananya Sharma  |  Overall Score: 71.71%
+  Source file        : resume_1_ananya.txt
+  Email              : ananya.sharma@email.com
+  Experience         : 4.0 yrs (required: 3.0 yrs) -> 100.0% match
+  Education          : m.tech -> 100.0% match
+  Skill Match Score  : 73.1%
+  Semantic/Text Score: 46.1%
+  Matched Skills (19): aws, communication, data visualization, deep learning, docker, git, machine learning, natural language processing, nlp, numpy, pandas, predictive modeling, problem solving, python, pytorch, scikit-learn, sql, statistics, tensorflow
+  Missing Skills (7): ci/cd, data analysis, data science, gcp, large language models, llm, mlops
+
+------------------------------------------------------------------------------------------
+Rank #3: Rahul Verma  |  Overall Score: 40.22%
+  Source file        : resume_2_rahul.txt
+  Email              : rahul.verma@email.com
+  Experience         : 2.0 yrs (required: 3.0 yrs) -> 66.7% match
+  Education          : b.tech -> 75.0% match
+  Skill Match Score  : 30.8%
+  Semantic/Text Score: 29.6%
+  Matched Skills (8): communication, git, machine learning, numpy, pandas, python, scikit-learn, sql
+  Missing Skills (18): aws, ci/cd, data analysis, data science, data visualization, deep learning, docker, gcp, large language models, llm, mlops, natural language processing, nlp, predictive modeling, problem solving, pytorch, statistics, tensorflow
+
+------------------------------------------------------------------------------------------
+Rank #4: Priya Nair  |  Overall Score: 26.42%
+  Source file        : resume_3_priya.txt
+  Email              : priya.nair@email.com
+  Experience         : 5.0 yrs (required: 3.0 yrs) -> 100.0% match
+  Education          : bachelor, bachelor of arts -> 75.0% match
+  Skill Match Score  : 3.8%
+  Semantic/Text Score: 7.3%
+  Matched Skills (1): communication
+  Missing Skills (25): aws, ci/cd, data analysis, data science, data visualization, deep learning, docker, gcp, git, large language models, llm, machine learning, mlops, natural language processing, nlp, numpy, pandas, predictive modeling, problem solving, python, pytorch, scikit-learn, sql, statistics, tensorflow
+
+==========================================================================================
+Top recommended candidate(s) for further evaluation:
+  -> Karan Mehta (75.76%)
+  -> Ananya Sharma (71.71%)
+==========================================================================================
